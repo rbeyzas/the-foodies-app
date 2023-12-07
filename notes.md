@@ -19,3 +19,9 @@ loading.js => Fallback page which is shown whilst sibling or nested pages (or la
 route.js => Allows you to create an API route (i.e., a page which does NOT return JSX code but instead data, e.g., in the JSON format)
 
 You also find a list with all supported filenames & detailed explanations in the official docs: https://nextjs.org/docs/app/api-reference/file-conventions
+
+## Using Routes Parameters
+
+Next.js keeps a hidden "params" in page.js. We don't need to write this. Next does this itself. Thanks to this "params" object, if there is a dynamic route in the app router - such as [slug] - it serves as a placeholder key.
+
+![routes-parameters](/images/routes-parameters.png)
