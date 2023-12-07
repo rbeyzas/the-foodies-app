@@ -29,3 +29,7 @@ Next.js keeps a hidden "params" in page.js. We don't need to write this. Next do
 ## 99 - CSS Modules
 
 [CSS Modules with Next.js](https://nextjs.org/docs/app/building-your-application/styling/css-modules)
+
+## 100 - Image Component
+
+[Image Component](https://nextjs.org/docs/app/api-reference/components/image)
