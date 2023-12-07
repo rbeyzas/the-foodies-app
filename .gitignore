@@ -1,9 +1,4 @@
-
-
-# next.js
-/.next/
-/out/
-# misc
+.next/
+out
 .DS_Store
-# dependencies
-/node_modules
+node_modules
