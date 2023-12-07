@@ -1,0 +1,9 @@
+
+
+# next.js
+/.next/
+/out/
+# misc
+.DS_Store
+# dependencies
+/node_modules
