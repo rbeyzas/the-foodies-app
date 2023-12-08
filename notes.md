@@ -34,4 +34,8 @@ Next.js keeps a hidden "params" in page.js. We don't need to write this. Next do
 
 [Image Component](https://nextjs.org/docs/app/api-reference/components/image)
 
+## Ek Notlar
+
 "async" server componentlerde kullanabiliriz. bu reactta yapabileceğimiz bir şey değil.
+
+Suspense componenti react tarafından sağlanır. Loading durumlarını yönetmemizi sağlar. Bazı içerikler yüklenene kadar yedek içeriği gösterir.
