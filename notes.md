@@ -33,3 +33,5 @@ Next.js keeps a hidden "params" in page.js. We don't need to write this. Next do
 ## 100 - Image Component
 
 [Image Component](https://nextjs.org/docs/app/api-reference/components/image)
+
+"async" server componentlerde kullanabiliriz. bu reactta yapabileceğimiz bir şey değil.
