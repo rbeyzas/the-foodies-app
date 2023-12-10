@@ -41,3 +41,5 @@ Next.js keeps a hidden "params" in page.js. We don't need to write this. Next do
 Suspense componenti react tarafından sağlanır. Loading durumlarını yönetmemizi sağlar. Bazı içerikler yüklenene kadar yedek içeriği gösterir.
 
 ![dangerouslySetInnerHTML](/notes-images/dangerouslySetInnerHTML.png)
+
+Event handler'lar -onClick gibi- server componentlerda kullanılmaz. Bu tür etkileşimle client'ta gerçekleşir.

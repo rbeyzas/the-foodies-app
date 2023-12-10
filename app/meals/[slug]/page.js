@@ -9,7 +9,6 @@ export default function MealsDetailsPage({ params }) {
   if (!meal) {
     notFound();
   }
-  console.log(meal.title);
   meal.instructions = meal.instructions.replace(/\n/g, '<br />');
   return (
     <>
