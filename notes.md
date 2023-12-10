@@ -43,3 +43,13 @@ Suspense componenti react tarafından sağlanır. Loading durumlarını yönetme
 ![dangerouslySetInnerHTML](/notes-images/dangerouslySetInnerHTML.png)
 
 Event handler'lar -onClick gibi- server componentlerda kullanılmaz. Bu tür etkileşimle client'ta gerçekleşir.
+
+'use client' -> Server action. Sadece sunucuda yütülecekse bu keywordu kullanırız. bu keywordu kullandığımız fonksiyonun içerisinde mutlaka "async" kullanmalıyız. Bu özellik React'ta da var ama Vanilla React'ta yok. Kullanabilmemiz için Next.js gibi bir çerçeveye ihtiyaç var.
+![user server](/notes-images/use-server-action.png)
+bu action işleminden sonran Next şunu yapar
+
+- Bir istek oluşturur
+- Next.js sunucusuna gönderir.
+- böylece fonksiyon tetiklenir.
+- form gönderimi sunucuda gerçekleşmiş olur.
+  Bu işlem sunucuda gerçekleşir. client'da değil
