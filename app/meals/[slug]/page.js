@@ -4,12 +4,12 @@ import classes from './page.module.css';
 import { notFound } from 'next/navigation';
 
 export default function MealsDetailsPage({ params }) {
-  const meal = getMeal(params.mealSlug);
+  const meal = getMeal(params.slug);
 
   if (!meal) {
     notFound();
   }
-
+  console.log(meal.title);
   meal.instructions = meal.instructions.replace(/\n/g, '<br />');
   return (
     <>
