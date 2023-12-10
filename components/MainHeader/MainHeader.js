@@ -25,9 +25,9 @@ export default function MainHeader() {
             <li>
               <NavLink href="/meals">Browse Meals</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink href="/meals/share">Share Meal</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink href="/community">Foodies Community</NavLink>
             </li>
