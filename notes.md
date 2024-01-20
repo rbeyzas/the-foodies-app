@@ -53,3 +53,9 @@ bu action işleminden sonran Next şunu yapar
 - böylece fonksiyon tetiklenir.
 - form gönderimi sunucuda gerçekleşmiş olur.
   Bu işlem sunucuda gerçekleşir. client'da değil
+
+useFormState hook'u iki argüman alır. ilk argüman form günderildiğinde tetiklenmesi gerekendir. ikinci argüman ise formun initial state'idir.
+
+## To Do List
+
+[] Error messages will be added
