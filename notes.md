@@ -68,3 +68,4 @@ Meta data hakkında bilgi için: https://nextjs.org/docs/app/api-reference/funct
 [] Error messages will be added
 [] generateMetaData is not fully working. review it
 [] migrate images to AWS S3
+[] Some of the photos in db will be deleted
