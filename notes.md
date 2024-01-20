@@ -34,6 +34,10 @@ Next.js keeps a hidden "params" in page.js. We don't need to write this. Next do
 
 [Image Component](https://nextjs.org/docs/app/api-reference/components/image)
 
+## 129. Ders Bonus: Storing Uploaded Images In The Cloud (AWS S3)
+
+AWS hesabı açıp görselleri cloud file storage a atabilirsin.
+
 ## Ek Notlar
 
 "async" server componentlerde kullanabiliriz. bu reactta yapabileceğimiz bir şey değil.
@@ -55,7 +59,12 @@ bu action işleminden sonran Next şunu yapar
   Bu işlem sunucuda gerçekleşir. client'da değil
 
 useFormState hook'u iki argüman alır. ilk argüman form günderildiğinde tetiklenmesi gerekendir. ikinci argüman ise formun initial state'idir.
+revalidatePath?
+public klasörü sadece development sürecinde kullanılır. production'a geçtiğimizde next onu .next klasörüne kopyalar. bu sorunu yaşamamak için AWS S3 kullanılabilir.
+Meta data hakkında bilgi için: https://nextjs.org/docs/app/api-reference/functions/generate-metadata
 
 ## To Do List
 
 [] Error messages will be added
+[] generateMetaData is not fully working. review it
+[] migrate images to AWS S3

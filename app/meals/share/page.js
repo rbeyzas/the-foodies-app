@@ -7,7 +7,8 @@ import { shareMeal } from '@/lib/action';
 import MealsFormSubmit from '@/components/Meals/MealsFormSubmit';
 
 export default function ShareMealPage() {
-  const [state, formAction] = useFormState(shareMeal, { message: null });
+  const [state, formAction] = useFormState(shareMeal, { message: '' });
+
   //useState gibi aynı mantıkta çalışır
   return (
     <>
@@ -42,7 +43,7 @@ export default function ShareMealPage() {
             <textarea id="instructions" name="instructions" rows="10" required></textarea>
           </p>
           <ImagePicker label="Your image" name="image" />
-          {state.message && <p>{state.message}</p>}
+          {/* {state.message && <p>{state.message}</p>} */}
           <p className={classes.actions}>
             <MealsFormSubmit />
           </p>

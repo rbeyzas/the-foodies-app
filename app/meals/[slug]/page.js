@@ -3,9 +3,19 @@ import { getMeal } from '@/lib/meals';
 import classes from './page.module.css';
 import { notFound } from 'next/navigation';
 
+// eğer bir meta data verisi bulamazsa böyle bir fonksiyonun olup olmadığını kontrol ediyor.
+// eğer böyle bir fonksiyon varsa next.js onu çalıştırır.
+// sayfa içerisinde olan params'lardan destek alarak oluşturur.
+export async function generateMetaData({ params }) {
+  const meal = await getMeal(params.slug);
+  return {
+    title: meal.title,
+    description: meal.summary,
+  };
+}
+
 export default function MealsDetailsPage({ params }) {
   const meal = getMeal(params.slug);
-
   if (!meal) {
     notFound();
   }
