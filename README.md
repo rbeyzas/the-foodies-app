@@ -1,4 +1,5 @@
-Would you like to take a look at this project?
+## Would you like to take a look at this project?
+[Live](the-foodies-app-rbeyzas.netlify.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
