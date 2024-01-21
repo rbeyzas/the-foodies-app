@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import { getMeal } from '@/lib/meals';
 import classes from './page.module.css';
